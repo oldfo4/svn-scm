@@ -1,6 +1,7 @@
 name: build
 
 on:
+  workflow_dispatch: # 添加此触发器
   push:
     branches:
       - 'master'
